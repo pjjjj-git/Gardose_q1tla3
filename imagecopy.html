@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GARDOSE COPY OF WEBSITE PAGE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #541554;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .buttons a {
+      background-color: white;
+      color: #541554;
+      padding: 10px 20px;
+      margin-left: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 80px 50px;
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    .highlight {
+      color: #ECB22E;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
+    .signup-buttons a {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 12px 20px;
+      background-color: white;
+      color: #541554;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .signup-buttons a.google {
+      background-color: #4285F4;
+      color: white;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .mockup {
+      position: absolute;
+      top: 100px;
+      right: 50px;
+      max-width: 40%;
+    }
+
+    .mockup img {
+      width: 100%;
+    }
+
+    @media (max-width: 900px) {
+      .mockup {
+        display: none;
+      }
+
+      header, .hero {
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">slack</div>
+    <nav>
+      <a href="#">Product</a>
+      <a href="#">Solutions</a>
+      <a href="#">Enterprise</a>
+      <a href="#">Resources</a>
+      <a href="#">Pricing</a>
+    </nav>
+    <div class="buttons">
+      <a href="#">Talk to Sales</a>
+      <a href="#">Try for Free</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>Made for people.<br><span class="highlight">Built for productivity.</span></h1>
+    <p>Connect the right people, find anything that you need and automate the rest. That’s work in Slack, your productivity platform.</p>
+    <div class="signup-buttons">
+      <a href="#">Sign up with Email Address</a>
+      <a href="#" class="google">Sign up with Google</a>
+    </div>
+    <p class="note"><strong>Slack is free to try</strong> for as long as you like</p>
+  </div>
+
+  <div class="mockup">
+    <img src="photo.jpeg.jpg" alt="Slack Interface Mockup">
+  </div>
+</body>
+</html>
